@@ -14,11 +14,11 @@ public class DataPoint {
     coordinates = new ArrayList<Point2D>();
   }
 
-  private void addData(double x, double y) {
+  public void addData(double x, double y) {
     coordinates.add(new Point2D(x, y));
   }
 
-  private List<Point2D> dataList() {
+  public List<Point2D> dataList() {
     return coordinates;
   }
 
