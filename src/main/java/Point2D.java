@@ -6,4 +6,11 @@ public class Point2D {
     this.x = x;
     this.y = y;
   }
+
+  public double getX(){
+    return x;
+  }
+  public double getY(){
+    return y;
+  }
 }
