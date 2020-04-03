@@ -4,7 +4,7 @@ import java.io.IOException;
 
 /**
  * An example of how to use the ImagePlotter for this data fitting assignment.
- * 
+ *
  * @author Amit Shesh
  * @version 2017-02-16
  */

@@ -2,10 +2,10 @@
 /**
  * Class to represent the equation of a Line
  */
-public class Line2D{
+public class Line2D {
   private double a, b, c;
 
-  public Line2D(double a, double b, double c){
+  public Line2D(double a, double b, double c) {
     this.a = a;
     this.b = b;
     this.c = c;
@@ -14,21 +14,21 @@ public class Line2D{
   /**
    * Get the value of a
    */
-  public double getA(){
+  public double getA() {
     return a;
   }
 
   /**
    * Get the value of b
    */
-  public double getB(){
+  public double getB() {
     return b;
   }
 
   /**
    * Get the value of c
    */
-  public double getC(){
+  public double getC() {
     return c;
   }
 
@@ -38,10 +38,10 @@ public class Line2D{
    *
    * @param x
    */
-  public double calculateY(double x){
-    if(b == 0){
+  public double calculateY(double x) {
+    if (b == 0) {
       return Math.random();
     }
-    return (a*x+c)/-b;
+    return (a * x + c) / -b;
   }
 }
