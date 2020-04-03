@@ -1,4 +1,4 @@
 
-public enum Task{
+public enum Task {
   LINEAL_REGRESSION, CLUSTERING;
 }

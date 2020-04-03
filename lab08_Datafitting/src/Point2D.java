@@ -2,10 +2,10 @@
 /**
  * Class to represent a Point in a plane
  */
-public class Point2D{
+public class Point2D {
   private double x, y;
 
-  public Point2D(double x, double y){
+  public Point2D(double x, double y) {
     this.x = x;
     this.y = y;
   }
@@ -13,14 +13,14 @@ public class Point2D{
   /**
    * Get the value of x
    */
-  public double getX(){
+  public double getX() {
     return x;
   }
 
   /**
    * Get the value of y
    */
-  public double getY(){
+  public double getY() {
     return y;
   }
 }

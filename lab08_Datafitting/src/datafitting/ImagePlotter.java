@@ -1,6 +1,6 @@
 package datafitting;
 
-import java.awt.*;
+import java.awt.;
 import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 import java.io.FileOutputStream;
@@ -13,7 +13,7 @@ import javax.imageio.ImageIO;
 /**
  * This class is a plotter of data onto an image. It provides operations to add
  * points, lines and circles to draw on the image.
- *
+ * <p>
  * It is also possible to set the size of the image to be created, along with
  * the range of the data that is provided to it.
  */
@@ -41,7 +41,7 @@ public class ImagePlotter {
 
   /**
    * Add a point to be drawn on the image.
-   * 
+   *
    * @param x
    * @param y
    */
@@ -53,7 +53,7 @@ public class ImagePlotter {
 
   /**
    * Add a point to be drawn on the image with the specific color.
-   * 
+   *
    * @param x
    * @param y
    * @param col
@@ -66,7 +66,7 @@ public class ImagePlotter {
 
   /**
    * Add a line to be drawn on the image.
-   * 
+   *
    * @param x1
    * @param y1
    * @param x2
@@ -82,7 +82,7 @@ public class ImagePlotter {
 
   /**
    * Add a line to be drawn on to the image with the specified color.
-   * 
+   *
    * @param x1
    * @param y1
    * @param x2
@@ -99,7 +99,7 @@ public class ImagePlotter {
 
   /**
    * Add a circle to be drawn on to the image.
-   * 
+   *
    * @param x
    * @param y
    * @param radius
@@ -113,7 +113,7 @@ public class ImagePlotter {
 
   /**
    * Add a circle to be drawn on to the image with the specified color.
-   * 
+   *
    * @param x
    * @param y
    * @param radius
@@ -129,7 +129,7 @@ public class ImagePlotter {
   /**
    * Set the range in which all the added points, circles and lines lie. This
    * provides the range of the data as added to this plotter
-   * 
+   *
    * @param xmin
    * @param xmax
    * @param ymin
@@ -160,7 +160,7 @@ public class ImagePlotter {
   /**
    * Draw all the shapes added thus far to an image and save it to the specific
    * path.
-   * 
+   *
    * @param path
    * @throws IOException
    */
@@ -217,7 +217,7 @@ public class ImagePlotter {
 
   /**
    * Set the width of the image that is created by this plotter.
-   * 
+   *
    * @param w
    */
   public void setWidth(int w) {
@@ -226,7 +226,7 @@ public class ImagePlotter {
 
   /**
    * Set the height of the image that is created by this plotter.
-   * 
+   *
    * @param h
    */
 
